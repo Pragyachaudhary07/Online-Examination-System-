@@ -1,0 +1,9 @@
+<form method="POST">
+  {% for q in questions %}
+    <p>{{ q.question }}</p>
+    {% for opt in q.options %}
+      <input type="radio" name="{{ q.id }}" value="{{ opt }}" required> {{ opt }}<br>
+    {% endfor %}
+  {% endfor %}
+  <button type="submit">Submit Exam</button>
+</form>
