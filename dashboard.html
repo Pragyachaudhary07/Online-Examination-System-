@@ -1,0 +1,6 @@
+<h2>Welcome, {{ session['username'] }}</h2>
+{% if admin %}
+  <p>Admin panel (feature to add questions can go here)</p>
+{% else %}
+  <a href="/exam">Start Exam</a>
+{% endif %}
