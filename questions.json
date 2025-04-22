@@ -1,0 +1,14 @@
+[
+    {
+        "id": "q1",
+        "question": "What is the capital of France?",
+        "options": ["Berlin", "Paris", "Rome", "Madrid"],
+        "answer": "Paris"
+    },
+    {
+        "id": "q2",
+        "question": "Which data type is used to store text in Python?",
+        "options": ["int", "str", "bool", "float"],
+        "answer": "str"
+    }
+]
